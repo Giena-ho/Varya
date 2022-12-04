@@ -1,0 +1,31 @@
+.plans {
+  margin-right: 40px;
+  margin-top: 20px;
+  height: 300px; 
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plans > img { 
+  height: 80%;
+  border-radius: 10px;
+}
+
+.plans > a {
+  border-radius: 10px;
+  cursor: pointer;
+  text-align:  center;
+  margin: auto;
+  width: 80%;
+  background-color: #a88f897e;
+  text-decoration: none;
+  color: black;
+}
+
+.plans > a:hover{
+  background-color:  #a88f897e;
+  transform: scale(1.2);
+  box-shadow: inset 0 0 0 3px  #a88f897e;
+}

@@ -1,0 +1,40 @@
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 34px;
+  display: center;
+  font-weight: 900;
+  text-align: center;
+}
+
+.topbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.topbar > a {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  background: #a88f897e;
+  padding: 8px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.topbar > a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow: inset 0 0 0 3px #a88f897e;
+}
+
+.title > a > img {
+  position: absolute;
+  transform: translate(-800px, -10px);
+  width: 130px;
+  opacity: 0.9;
+}

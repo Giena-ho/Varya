@@ -1,0 +1,24 @@
+.wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.pictures {
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.box {
+  /* картинка фон */
+  background-image: url("./images//clouds.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
